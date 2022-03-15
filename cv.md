@@ -1,5 +1,7 @@
 #Artsiom Rusak
 
+![photo](/photo.jpg "my photo")
+
 ##Junior Frontend Developer
 
 
