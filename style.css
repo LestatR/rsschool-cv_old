@@ -14,7 +14,9 @@
         font-size: 18px;
         font-weight: 400;
         line-height: 1.5;
-        color: rgb(32, 31, 31);
+        /* color: rgb(32, 31, 31); */
+        color: #fff;
+        background-color: #000;
     }
     
     a {
@@ -65,7 +67,7 @@
     
     .nav-link:hover {
         /* filter: contrast(10%); */
-        filter: brightness(0%) drop-shadow(0px 0px 3px white);
+        filter: brightness(40%) drop-shadow(0px 0px 5px white);
     }
     
     .section {
@@ -134,15 +136,17 @@
     
     .svg-rss {
         width: 100%;
+        filter: drop-shadow(0px 0px 3px white);
     }
     
     .svg-rss:hover {
-        filter: drop-shadow(16px 16px 20px white);
+        filter: drop-shadow(6px 6px 10px white);
         transition: .3s;
     }
     
     .svg-git {
         width: 50%;
+        filter: drop-shadow(0px 0px 3px white);
     }
     
     .svg-git:hover {
